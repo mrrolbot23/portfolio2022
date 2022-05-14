@@ -37,8 +37,8 @@ const Contact = () => {
           <article className="contact__option">
             <RiMailSendLine className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>edwin.roldan2@gmail.com</h5>
-            <a href="mailto:edwin.roldan2@gmail.com" target='_blank' rel="noreferrer" >Send a message</a>
+            <h5>contact@mrrolbot.com</h5>
+            <a href="mailto:contact@mrrolbot.com" target='_blank' rel="noreferrer" >Send a message</a>
           </article>
           <article className="contact__option">
             <SiMessenger className='contact__option-icon'/>
