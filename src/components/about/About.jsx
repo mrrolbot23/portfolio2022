@@ -22,7 +22,7 @@ const About = () => {
             <article className='about__card'>
               <FiAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1 Year Development</small>
+              <small>1 Year</small>
             </article>
 
             <article className='about__card'>
@@ -38,11 +38,10 @@ const About = () => {
             </article>
           </div>
           <p>
-              I'm a Systems Engineer in the U.S. Army that found a new passion for Software and 
-              Web Development a little over year ago. Experienced with multiple Frontend and Backend technologies.
+              I'm a Software Developer and Systems Engineer in the U.S. Army. Experienced with multiple Frontend and Backend technologies.
               As a self-taught developer, I'm always on "Learning Mode". It gives me the ability to quickly adapt 
               to changes and unexpected situations. Love sharing knowledge and experiences to make the team better.
-              Also, I know how to close Vim 😬. I look forward to working with you!
+              Also, I know how to exit Vim 😬. I look forward to working with you!
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
