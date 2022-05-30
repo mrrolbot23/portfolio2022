@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaTwitter, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import {FaCodepen, FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import './Footer.css';
 
 const date = new Date();
@@ -19,8 +19,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://twitter.com/MrRolbot" target='_blank' rel="noreferrer" ><FaTwitter/></a>
-        <a href="https://www.instagram.com/mrrolbot/" target='_blank' rel="noreferrer" ><FaInstagram/></a>
+        <a href="https://github.com/MrRolbot" target='_blank' rel="noreferrer" ><FaGithub/></a>
+        <a href="https://codepen.io/mrrolbot" target='_blank' rel="noreferrer" ><FaCodepen/></a>
         <a href="https://www.linkedin.com/in/edwin-roldan-delgado-93b067b3/" target='_blank' rel="noreferrer" ><FaLinkedinIn/></a>
       </div>
 

@@ -33,6 +33,7 @@ footer a {
 }
 
 .footer__socials a {
+    font-size: 1.2rem;
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
