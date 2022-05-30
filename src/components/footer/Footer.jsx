@@ -2,6 +2,9 @@ import React from 'react';
 import {FaTwitter, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 import './Footer.css';
 
+const date = new Date();
+const currentYear = date.getFullYear();
+
 const Footer = () => {
   return (
     <footer>
@@ -22,7 +25,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Mr. Rolbot 2022</small>
+        <small>&copy; Mr. Rolbot {currentYear}</small>
       </div>
     </footer>
   )
