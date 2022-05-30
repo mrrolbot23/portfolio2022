@@ -81,6 +81,11 @@ section > h2 {
     margin-bottom: 3rem;
 }
 
+.highlight-bold {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
 .text-light {
     color: var(--color-primary);
 }

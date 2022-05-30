@@ -20,7 +20,7 @@ const Portfolio = () => {
           <p>
             The frontend was built with REACT, Ant Design, and NodeJS. 
             The backend was build with Spring Boot, Maven, and PostgreSQL. Packaged 
-            with Docker into a single image. The app was deployed on AWS through Github Actions
+            with Docker into a single image. The app was deployed on <span className='highlight-bold' >AWS</span> through Github Actions
             following CICD principals.
           </p>
             <div className="portfolio__item-cta">
@@ -35,7 +35,7 @@ const Portfolio = () => {
           <h3>Cryptocurrency Tracker</h3>
           <p> 
             Built with REACT, NodeJS, Express, and the CoinGecko API. Easily track
-            your favorite coin's price, trending coins, and exchanges.
+            your favorite coin's price, trending coins, and exchanges. Currently Hosted on <span className='highlight-bold' >Heroku</span>.
           </p>
             <div className="portfolio__item-cta">
               <a href="https://github.com/MrRolbot/Crypto-React-App" className='btn' target='_blank' rel="noreferrer" >Github</a>
@@ -50,7 +50,7 @@ const Portfolio = () => {
           <p>
             This application was built with
             HTML, CSS, Bootsrap, NodeJS, and the MailChimp API. It 
-            can easily be implemented on any site. Deployed on Heroku 
+            can easily be implemented on any site. Deployed on <span className='highlight-bold' >Heroku </span>  
             utilizing Git.
           </p>
             <div className="portfolio__item-cta">
