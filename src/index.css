@@ -110,6 +110,10 @@ html, body {
     color: #354259;
 }
 
+#dark .about__card h5, .portfolio__item h3, .contact__option h5 {
+    color: var(--color-white);
+}
+
 #light .portfolio__item p {
     color:#354259;
 }

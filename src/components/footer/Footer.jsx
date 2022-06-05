@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaCodepen, FaGithub, FaLinkedinIn} from 'react-icons/fa'
-import LOGO from '../../assets/logo.png'
+import LOGO from '../../assets/logo.webp'
 import '../../index.css'
 import './Footer.css';
 
@@ -21,9 +21,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://github.com/MrRolbot" target='_blank' rel="noreferrer" ><FaGithub/></a>
-        <a href="https://codepen.io/mrrolbot" target='_blank' rel="noreferrer" ><FaCodepen/></a>
-        <a href="https://www.linkedin.com/in/edwin-roldan-delgado-93b067b3/" target='_blank' rel="noreferrer" ><FaLinkedinIn/></a>
+        <a href="https://github.com/MrRolbot" target='_blank' rel="noreferrer" aria-label='github button'><FaGithub/></a>
+        <a href="https://codepen.io/mrrolbot" target='_blank' rel="noreferrer" aria-label='codepen button'><FaCodepen/></a>
+        <a href="https://www.linkedin.com/in/edwin-roldan-delgado-93b067b3/" target='_blank' rel="noreferrer" aria-label='linkedin button'><FaLinkedinIn/></a>
       </div>
 
       <div className="footer__copyright">

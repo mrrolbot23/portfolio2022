@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/me-about.png'
+import ME from '../../assets/me-about.webp'
 import {FiAward} from 'react-icons/fi'
 import {HiChatAlt2} from 'react-icons/hi'
 import {BiGitRepoForked} from 'react-icons/bi'

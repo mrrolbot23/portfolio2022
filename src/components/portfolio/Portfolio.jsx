@@ -1,9 +1,9 @@
 import React from 'react';
 import './Portfolio.css';
-import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/pumptoshi 3D.png'
-import IMG4 from '../../assets/crypto-tracker.png'
+import IMG1 from '../../assets/portfolio1.webp'
+import IMG2 from '../../assets/portfolio2.webp'
+import IMG3 from '../../assets/pumptoshi 3D.webp'
+import IMG4 from '../../assets/crypto-tracker.webp'
 
 const Portfolio = () => {
   return (
