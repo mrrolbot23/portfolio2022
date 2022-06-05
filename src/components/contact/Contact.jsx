@@ -5,8 +5,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import {RiMailSendLine} from 'react-icons/ri'
 import {SiMessenger, SiTelegram} from 'react-icons/si'
 import 'react-toastify/dist/ReactToastify.css';
+import '../../index.css'
 import './Contact.css';
-
 
 const Contact = () => {
   

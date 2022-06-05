@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--color-primary);
 }
 
 .footer__logo {
@@ -15,6 +15,10 @@ footer a {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+}
+
+.footer__logo img {
+    height: 100px;
 }
 
 .permalinks {
@@ -33,6 +37,7 @@ footer a {
 }
 
 .footer__socials a {
+    font-size: 1.2rem;
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
@@ -42,8 +47,8 @@ footer a {
 }
 
 .footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
+    transform: scale(1.1);
+    background-color: var(--color-primary);
     border-color: var(--color-bg);
 }
 
