@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaCodepen, FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import LOGO from '../../assets/logo.png'
+import '../../index.css'
 import './Footer.css';
 
 const date = new Date();

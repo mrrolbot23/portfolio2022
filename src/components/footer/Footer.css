@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--color-primary);
 }
 
 .footer__logo {
@@ -47,8 +47,8 @@ footer a {
 }
 
 .footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
+    transform: scale(1.1);
+    background-color: var(--color-primary);
     border-color: var(--color-bg);
 }
 

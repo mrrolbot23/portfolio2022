@@ -10,24 +10,8 @@
     text-decoration: none;
 }
 
-:root {
-    --color-bg: #EEEEEE;
-    --color-bg-variant: rgba(255, 255, 255, 0.4);  
-    --color-primary: #041C32;
-    --color-primary-variant: rgba(#04293a81);
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;    
-}
-
-html {
-    scroll-behavior: smooth;
-}
 
 ::-webkit-scrollbar {
     display: none;
