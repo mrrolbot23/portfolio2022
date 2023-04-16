@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.webp";
 import IMG2 from "../../assets/portfolio2.webp";
-import IMG3 from "../../assets/pumptoshi 3D.webp";
+import IMG3 from "../../assets/keeper.png";
 import IMG4 from "../../assets/crypto-tracker.webp";
 
 const Portfolio = () => {
@@ -18,11 +18,13 @@ const Portfolio = () => {
           </div>
           <h3>Student Management App</h3>
           <p>
-            The frontend was built with REACT, Ant Design, and NodeJS. The
-            backend was build with Spring Boot, Maven, and PostgreSQL. Packaged
-            with Docker into a single image. The app was deployed on{" "}
-            <span className="highlight-bold">AWS</span> through Github Actions
-            following CICD principals.
+            The frontend was built with REACT, Ant Design, and NodeJS. Backend
+            was build with Spring Boot, Maven, and PostgreSQL. Packaged with
+            Docker into a single image. Deployed on
+            <span className="highlight-bold">
+              <strong> AWS</strong>
+            </span>{" "}
+            through Github Actions following CICD principals.
           </p>
           <div className="portfolio__item-cta">
             <a
@@ -84,12 +86,14 @@ const Portfolio = () => {
           <p>
             This application was built with HTML, CSS, Bootsrap, NodeJS, and the
             MailChimp API. It can easily be implemented on any site. Deployed on{" "}
-            <span className="highlight-bold">Heroku </span>
+            <span className="highlight-bold">
+              <strong>Render </strong>
+            </span>
             utilizing Git.
           </p>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/MrRolbot/Newsletter"
+              href="https://github.com/MrRolbot23/newsletter-signup"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -97,7 +101,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://vast-lowlands-53275.herokuapp.com/"
+              href="https://newsletter-signup-4jn9.onrender.com"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -110,15 +114,25 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Pumptoshi Website (In Progress)</h3>
+          <h3>Notes App (Frontend)</h3>
           <p>
-            Cryptopreneur and Financial mentor. Built with REACT and NodeJS.
+            Note keeping app Frontend Template. Built with REACT and NodeJS.
           </p>
           <div className="portfolio__item-cta">
-            <a href="null" className="btn" rel="noreferrer">
+            <a
+              href="https://github.com/MrRolbot/kepper-react"
+              className="btn"
+              rel="noreferrer"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="null" className="btn btn-primary" rel="noreferrer">
+            <a
+              href="https://oufubv.csb.app/"
+              className="btn btn-primary"
+              rel="noreferrer"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
