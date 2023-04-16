@@ -12,10 +12,10 @@ import "./index.css";
 export const ThemeContext = createContext(null);
 
 const App = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
-    setTheme((current) => (current === "dark" ? "light" : "dark"));
+    setTheme((current) => (current === "light" ? "dark" : "light"));
   };
 
   return (
